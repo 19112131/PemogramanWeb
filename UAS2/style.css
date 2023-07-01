@@ -1,0 +1,172 @@
+.navbar {
+    background-color: transparent; /* Atur warna latar belakang navbar sesuai kebutuhan */
+    padding: 0px 0; /* Sesuaikan padding atas dan bawah sesuai kebutuhan */
+  }
+  
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+  
+  .nav-menu li {
+    margin-left: 15px; /* Sesuaikan dengan jarak antara item menu */
+  }
+  
+  .nav-menu li:first-child {
+    margin-left: 0; /* Menghilangkan margin pada item menu pertama */
+  }
+
+  #top {
+    background-image: url('pict/people-concert.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    width: 1253px;
+    height: 430px;
+    flex-shrink: 0;
+  }
+  .top-section {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .top-konten {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .top-konten p {
+    margin-bottom: 20px;
+    justify-content: left;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  #event {
+    background: linear-gradient(180deg, #1B0027 0%, rgba(82, 7, 115, 0.49) 31.25%, rgba(137, 104, 178, 0.19) 65.63%, rgba(255, 255, 255, 0.19) 100%);
+    padding: 50px;
+    width: 1233px;
+    height: 300px;
+    flex-shrink: 0;
+  }
+  
+  #offer {
+    background-color: #000;
+    padding: 250px;
+  }
+  
+  #tentang {
+    background: linear-gradient(0deg, rgba(137, 104, 178, 0.50) 0%, rgba(137, 104, 178, 0.50) 50%), url('pict/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    width: 1253px;
+    height: 300px;
+    flex-shrink: 0;
+  }
+  .ttng-konten p {
+    margin-bottom: 20px;
+    justify-content: center;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .ttngsec {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .top-konten {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  footer {
+    background-color: #443459;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+  }
+  
+  .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font: 8px;
+    color: #fff;
+  }
+  
